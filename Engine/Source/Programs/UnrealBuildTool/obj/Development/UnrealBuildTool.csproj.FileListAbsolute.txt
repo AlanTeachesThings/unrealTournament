@@ -1,0 +1,6 @@
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Binaries\DotNET\UnrealBuildTool.exe.config
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Binaries\DotNET\UnrealBuildTool.exe
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Binaries\DotNET\UnrealBuildTool.pdb
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.csprojResolveAssemblyReference.cache
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.exe
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.pdb

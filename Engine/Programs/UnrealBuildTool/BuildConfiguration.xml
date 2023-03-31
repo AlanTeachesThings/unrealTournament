@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--	#########################################################################
+	#                                                                       #
+	#	This is an XML with default UBT configuration. If you want to		#
+	#	override it, create the same file in the locations c. or d.			#
+	#	(see below). DO NOT CHANGE THE CONTENTS OF THIS FILE!				#
+	#																		#
+	#########################################################################
+
+	The syntax of this file is:
+		<Configuration>
+			<ClassA>
+				<Field1>Value</Field2>
+				<ArrayField2>
+					<Item>First item</Item>
+					<Item>Second item</Item>
+					...
+					<Item>Last item</Item>
+				</ArrayField2>
+
+				...
+
+			</ClassA>
+			<ClassB>
+				...
+			</ClassB>
+
+			...
+
+			<ClassN>
+				...
+			</ClassN>
+		</Configuration>
+
+	There are four possible location for this file:
+		a. UE4/Engine/Programs/UnrealBuildTool
+		b. UE4/Engine/Programs/NotForLicensees/UnrealBuildTool
+		c. UE4/Engine/Saved/UnrealBuildTool
+		d. AppData/Roaming/Unreal Engine/UnrealBuildTool
+		e. My Documents/Unreal Engine/UnrealBuildTool
+
+	UBT looks in each location in the order above, overriding previously read settings with data from subsequent files (hence e. has the highest priority).
+	Classes and fields which are not defined are ignored.
+-->
+<Configuration xmlns="https://www.unrealengine.com/BuildConfiguration">
+	<RemoteToolChain>
+		<RemoteServerName></RemoteServerName>
+		<PotentialServerNames />
+		<bUseRPCUtil>true</bUseRPCUtil>
+		<RSyncExe>${ENGINE_ROOT}\Engine\Extras\ThirdPartyNotUE\DeltaCopy\Binaries\rsync.exe</RSyncExe>
+		<SSHExe>${ENGINE_ROOT}\Engine\Extras\ThirdPartyNotUE\DeltaCopy\Binaries\ssh.exe</SSHExe>
+		<SSHPrivateKeyOverridePath></SSHPrivateKeyOverridePath>
+		<RsyncAuthentication>ssh -i '${CYGWIN_SSH_PRIVATE_KEY}'</RsyncAuthentication>
+		<SSHAuthentication>-i '${CYGWIN_SSH_PRIVATE_KEY}'</SSHAuthentication>
+		<RSyncUsername>${CURRENT_USER}</RSyncUsername>
+	</RemoteToolChain>
+	<IOSToolChain>
+		<bUseDangerouslyFastMode>false</bUseDangerouslyFastMode>
+		<BuildIOSVersion>7.0</BuildIOSVersion>
+	</IOSToolChain>
+	<HTML5Platform>
+		<HTML5Architecture></HTML5Architecture>
+	</HTML5Platform>
+	<UEBuildConfiguration>
+		<bCompilePhysX>true</bCompilePhysX>
+		<bCompileAPEX>true</bCompileAPEX>
+		<bRuntimePhysicsCooking>true</bRuntimePhysicsCooking>
+		<bCompileBox2D>true</bCompileBox2D>
+		<bCompileICU>true</bCompileICU>
+		<bBuildEditor>true</bBuildEditor>
+		<bBuildRequiresCookedData>false</bBuildRequiresCookedData>
+		<bBuildWithEditorOnlyData>true</bBuildWithEditorOnlyData>
+		<bBuildDeveloperTools>true</bBuildDeveloperTools>
+		<bForceBuildTargetPlatforms>false</bForceBuildTargetPlatforms>
+		<bForceBuildShaderFormats>false</bForceBuildShaderFormats>
+		<bCompileSimplygon>true</bCompileSimplygon>
+		<bCompileSimplygonSSF>true</bCompileSimplygonSSF>
+		<bCompileSteamOSS>false</bCompileSteamOSS>
+		<bCompileLeanAndMeanUE>false</bCompileLeanAndMeanUE>
+		<bGenerateExternalFileList>false</bGenerateExternalFileList>
+		<bMergeExternalFileList>false</bMergeExternalFileList>
+		<bGenerateManifest>false</bGenerateManifest>
+		<bMergeManifests>false</bMergeManifests>
+		<bCleanProject>false</bCleanProject>
+		<bPrepForDeployment>false</bPrepForDeployment>
+		<bCompileAgainstEngine>true</bCompileAgainstEngine>
+		<bCompileAgainstCoreUObject>true</bCompileAgainstCoreUObject>
+		<bFormalBuild>false</bFormalBuild>
+		<bIncludeADO>false</bIncludeADO>
+		<UEThirdPartySourceDirectory>ThirdParty/</UEThirdPartySourceDirectory>
+		<UEThirdPartyBinariesDirectory>../Binaries/ThirdParty/</UEThirdPartyBinariesDirectory>
+		<bForceHeaderGeneration>false</bForceHeaderGeneration>
+		<bDoNotBuildUHT>false</bDoNotBuildUHT>
+		<bFailIfGeneratedCodeChanges>false</bFailIfGeneratedCodeChanges>
+		<bCompileRecast>true</bCompileRecast>
+		<bCompileSpeedTree>true</bCompileSpeedTree>
+		<bForceEnableExceptions>false</bForceEnableExceptions>
+		<bForceEnableRTTI>false</bForceEnableRTTI>
+		<bWithServerCode>true</bWithServerCode>
+		<bCompileWithStatsWithoutEngine>false</bCompileWithStatsWithoutEngine>
+		<bCompileWithPluginSupport>false</bCompileWithPluginSupport>
+		<bWithPerfCounters>false</bWithPerfCounters>
+		<bUseLoggingInShipping>false</bUseLoggingInShipping>
+		<bLoggingToMemoryEnabled>false</bLoggingToMemoryEnabled>
+		<bUseLauncherChecks>false</bUseLauncherChecks>
+		<bUseChecksInShipping>false</bUseChecksInShipping>
+		<bCompileFreeType>true</bCompileFreeType>
+		<bCompileForSize>false</bCompileForSize>
+		<bAllowHotReloadFromIDE>true</bAllowHotReloadFromIDE>
+		<bCompileCEF3>true</bCompileCEF3>
+		<bEditorDependsOnShaderCompileWorker>true</bEditorDependsOnShaderCompileWorker>
+		<bForceCompileDevelopmentAutomationTests>false</bForceCompileDevelopmentAutomationTests>
+		<bForceCompilePerformanceAutomationTests>false</bForceCompilePerformanceAutomationTests>
+		<bEventDrivenLoader>false</bEventDrivenLoader>
+	</UEBuildConfiguration>
+	<BuildConfiguration>
+		<bUseUnityBuild>true</bUseUnityBuild>
+		<bForceUnityBuild>false</bForceUnityBuild>
+		<bUseAdaptiveUnityBuild>true</bUseAdaptiveUnityBuild>
+		<bAdaptiveUnityDisablesOptimizations>false</bAdaptiveUnityDisablesOptimizations>
+		<MinGameModuleSourceFilesForUnityBuild>32</MinGameModuleSourceFilesForUnityBuild>
+		<bShadowVariableErrors>false</bShadowVariableErrors>
+		<bUseFastMonoCalls>true</bUseFastMonoCalls>
+		<bUseFastSemanticsRenderContexts>true</bUseFastSemanticsRenderContexts>
+		<NumIncludedBytesPerUnityCPP>393216</NumIncludedBytesPerUnityCPP>
+		<bStressTestUnity>false</bStressTestUnity>
+		<bCheckSystemHeadersForModification>false</bCheckSystemHeadersForModification>
+		<bCheckExternalHeadersForModification>false</bCheckExternalHeadersForModification>
+		<bIgnoreOutdatedImportLibraries>true</bIgnoreOutdatedImportLibraries>
+		<bDisableDebugInfo>false</bDisableDebugInfo>
+		<bDisableDebugInfoForGeneratedCode>true</bDisableDebugInfoForGeneratedCode>
+		<bOmitPCDebugInfoInDevelopment>false</bOmitPCDebugInfoInDevelopment>
+		<bUsePDBFiles>false</bUsePDBFiles>
+		<bUsePCHFiles>true</bUsePCHFiles>
+		<bUseActionHistory>true</bUseActionHistory>
+		<MinFilesUsingPrecompiledHeader>6</MinFilesUsingPrecompiledHeader>
+		<bForcePrecompiledHeaderForGameModules>true</bForcePrecompiledHeaderForGameModules>
+		<bPrintDebugInfo>false</bPrintDebugInfo>
+		<bPrintPerformanceInfo>false</bPrintPerformanceInfo>
+		<bLogDetailedActionStats>false</bLogDetailedActionStats>
+		<bDeployAfterCompile>false</bDeployAfterCompile>
+		<bFlushBuildDirOnRemoteMac>false</bFlushBuildDirOnRemoteMac>
+		<bAllowXGE>true</bAllowXGE>
+		<bXGENoWatchdogThread>false</bXGENoWatchdogThread>
+		<bXGEExport>false</bXGEExport>
+		<bShowXGEMonitor>false</bShowXGEMonitor>
+		<bStopXGECompilationAfterErrors>true</bStopXGECompilationAfterErrors>
+		<bAllowRemotelyCompiledPCHs>false</bAllowRemotelyCompiledPCHs>
+		<bAllowSNDBS>true</bAllowSNDBS>
+		<bShouldDeleteAllOutdatedProducedItems>false</bShouldDeleteAllOutdatedProducedItems>
+		<bUseIncrementalLinking>false</bUseIncrementalLinking>
+		<bAllowLTCG>false</bAllowLTCG>
+		<bAllowASLRInShipping>true</bAllowASLRInShipping>
+		<bSupportEditAndContinue>false</bSupportEditAndContinue>
+		<bOmitFramePointers>true</bOmitFramePointers>
+		<LogLevel>Log</LogLevel>
+		<ProcessorCountMultiplier>1</ProcessorCountMultiplier>
+		<MaxProcessorCount>2147483647</MaxProcessorCount>
+		<BaseIntermediateFolder>Intermediate/Build/</BaseIntermediateFolder>
+		<bGeneratedSYMFile>true</bGeneratedSYMFile>
+		<bGeneratedSYMBundle>false</bGeneratedSYMBundle>
+		<bStripSymbolsOnIOS>false</bStripSymbolsOnIOS>
+		<bCreateStubIPA>true</bCreateStubIPA>
+		<bCopyAppBundleBackToDevice>false</bCopyAppBundleBackToDevice>
+		<bUseMallocProfiler>false</bUseMallocProfiler>
+		<bEnableCodeAnalysis>false</bEnableCodeAnalysis>
+		<bUseSharedPCHs>true</bUseSharedPCHs>
+		<bUseIncludeDependencyResolveCache>true</bUseIncludeDependencyResolveCache>
+		<bTestIncludeDependencyResolveCache>false</bTestIncludeDependencyResolveCache>
+		<bDebugBuildsActuallyUseDebugCRT>false</bDebugBuildsActuallyUseDebugCRT>
+		<bUseShippingPhysXLibraries>false</bUseShippingPhysXLibraries>
+		<bUseCheckedPhysXLibraries>false</bUseCheckedPhysXLibraries>
+		<bCheckLicenseViolations>true</bCheckLicenseViolations>
+		<bBreakBuildOnLicenseViolation>true</bBreakBuildOnLicenseViolation>
+		<bUseUBTMakefiles>true</bUseUBTMakefiles>
+		<bUseUHTMakefiles>false</bUseUHTMakefiles>
+		<bAllowDistcc>false</bAllowDistcc>
+		<bAllowDistccLocalFallback>true</bAllowDistccLocalFallback>
+		<bVerboseDistccOutput>false</bVerboseDistccOutput>
+		<DistccExecutablesPath>/usr/local/bin</DistccExecutablesPath>
+		<DMUCSCoordinator>localhost</DMUCSCoordinator>
+		<DMUCSDistProp></DMUCSDistProp>
+		<bRunUnrealCodeAnalyzer>false</bRunUnrealCodeAnalyzer>
+		<bUCACheckUObjectThreadSafety>false</bUCACheckUObjectThreadSafety>
+		<bUCACheckPCHFiles>false</bUCACheckPCHFiles>
+		<UCAUsageThreshold>100</UCAUsageThreshold>
+		<bAddFastPDBToProjects>false</bAddFastPDBToProjects>
+		<bUseFastPDBLinking>false</bUseFastPDBLinking>
+		<bUsePerFileIntellisense>false</bUsePerFileIntellisense>
+		<bCreateMapFile>false</bCreateMapFile>
+	</BuildConfiguration>
+	<VCProjectFileGenerator>
+		<Version>Default</Version>
+	</VCProjectFileGenerator>
+	<WindowsPlatform>
+		<Compiler>Default</Compiler>
+		<bLogDetailedCompilerTimingInfo>false</bLogDetailedCompilerTimingInfo>
+	</WindowsPlatform>
+</Configuration>

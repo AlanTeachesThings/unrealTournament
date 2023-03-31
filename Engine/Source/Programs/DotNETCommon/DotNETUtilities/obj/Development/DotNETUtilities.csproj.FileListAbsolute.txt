@@ -1,0 +1,5 @@
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Binaries\DotNET\DotNETUtilities.dll
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Binaries\DotNET\DotNETUtilities.pdb
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Source\Programs\DotNETCommon\DotNETUtilities\obj\Development\DotNETUtilities.csprojResolveAssemblyReference.cache
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Source\Programs\DotNETCommon\DotNETUtilities\obj\Development\DotNETUtilities.dll
+C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Source\Programs\DotNETCommon\DotNETUtilities\obj\Development\DotNETUtilities.pdb
