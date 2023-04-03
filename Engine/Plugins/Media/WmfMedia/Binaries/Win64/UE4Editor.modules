@@ -1,0 +1,10 @@
+{
+	"Changelist" : 3228288,
+	"BuildId" : "2c2f67df-823d-46f4-b7e1-6e7f28eb43e7",
+	"Modules" : 
+	{
+		"WmfMedia" : "UE4Editor-WmfMedia.dll",
+		"WmfMediaEditor" : "UE4Editor-WmfMediaEditor.dll",
+		"WmfMediaFactory" : "UE4Editor-WmfMediaFactory.dll"
+	}
+}

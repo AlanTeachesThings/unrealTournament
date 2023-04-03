@@ -1,0 +1,8 @@
+{
+	"Changelist" : 3228288,
+	"BuildId" : "c42acc26-9448-4f04-add5-f7d630ebd898",
+	"Modules" : 
+	{
+		"UdpMessaging" : "UnrealFrontend-UdpMessaging.dll"
+	}
+}

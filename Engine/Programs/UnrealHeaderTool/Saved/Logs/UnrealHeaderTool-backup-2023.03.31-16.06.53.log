@@ -1,0 +1,171 @@
+﻿Log file open, 03/31/23 16:05:52
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2102310145) SRandInit(-2102310145).
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads with 1 sets of task threads.
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 9
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 19
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+[2023.03.31-15.05.52:602][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2023.03.31-15.05.52:602][  0]LogMemory: Platform Memory Stats for Windows
+[2023.03.31-15.05.52:602][  0]LogMemory: Process Physical Memory: 26.91 MB used, 26.91 MB peak
+[2023.03.31-15.05.52:602][  0]LogMemory: Process Virtual Memory: 56.55 MB used, 56.55 MB peak
+[2023.03.31-15.05.52:602][  0]LogMemory: Physical Memory: 14323.98 MB used,  18145.52 MB free, 32469.50 MB total
+[2023.03.31-15.05.52:602][  0]LogMemory: Virtual Memory: 4307.71 MB used,  18145.52 MB free, 134217728.00 MB total
+[2023.03.31-15.05.52:602][  0]LogTextLocalizationManager: No translations for ('') exist, falling back to 'en' for localization and internationalization data.
+[2023.03.31-15.05.52:602][  0]LogCompile: UHT Command Line: ..\Binaries\Win64\UnrealHeaderTool.exe CrashReportClient C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient.uhtmanifest "-LogCmds=loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -NoEnginePlugins
+[2023.03.31-15.05.52:603][  0]LogCompile: Loaded manifest: C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient.uhtmanifest
+[2023.03.31-15.05.52:603][  0]LogCompile: Manifest.IsGameTarget=False
+[2023.03.31-15.05.52:603][  0]LogCompile: Manifest.RootLocalPath=C:\Users\aja7\Documents\GitHub\unrealTournament
+[2023.03.31-15.05.52:603][  0]LogCompile: Manifest.RootBuildPath=C:\Users\aja7\Documents\GitHub\unrealTournament\
+[2023.03.31-15.05.52:603][  0]LogCompile: Manifest.TargetName=CrashReportClient
+[2023.03.31-15.05.52:603][  0]LogCompile: Manifest.Modules=6
+[2023.03.31-15.05.52:603][  0]LogCompile:   CoreUObject
+[2023.03.31-15.05.52:603][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/CoreUObject/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/CoreUObject/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/CoreUObject/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/CoreUObject/CoreUObject.generated
+[2023.03.31-15.05.52:603][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-15.05.52:603][  0]LogCompile:   InputCore
+[2023.03.31-15.05.52:603][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/InputCore/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/InputCore/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/InputCore/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/InputCore/InputCore.generated
+[2023.03.31-15.05.52:603][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-15.05.52:603][  0]LogCompile:   SlateCore
+[2023.03.31-15.05.52:603][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/SlateCore/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/SlateCore/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateCore.generated
+[2023.03.31-15.05.52:603][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-15.05.52:603][  0]LogCompile:   Slate
+[2023.03.31-15.05.52:603][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/Slate/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/Slate/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/Slate.generated
+[2023.03.31-15.05.52:603][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-15.05.52:603][  0]LogCompile:   EditorStyle
+[2023.03.31-15.05.52:603][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Editor/EditorStyle/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Editor/EditorStyle/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/EditorStyle/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/EditorStyle/EditorStyle.generated
+[2023.03.31-15.05.52:603][  0]LogCompile:   .ModuleType=EngineEditor
+[2023.03.31-15.05.52:603][  0]LogCompile:   SlateReflector
+[2023.03.31-15.05.52:603][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/SlateReflector/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/SlateReflector/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateReflector/
+[2023.03.31-15.05.52:603][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-15.05.52:603][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateReflector/SlateReflector.generated
+[2023.03.31-15.05.52:603][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-15.05.52:605][  0]LogCompile: Preparsed module /Script/CoreUObject containing 3 files(s) in 0.00 secs.
+[2023.03.31-15.05.52:606][  0]LogCompile: Preparsed module /Script/InputCore containing 1 files(s) in 0.00 secs.
+[2023.03.31-15.05.52:615][  0]LogCompile: Preparsed module /Script/SlateCore containing 19 files(s) in 0.01 secs.
+[2023.03.31-15.05.52:621][  0]LogCompile: Preparsed module /Script/Slate containing 18 files(s) in 0.01 secs.
+[2023.03.31-15.05.52:621][  0]LogCompile: Preparsed module /Script/EditorStyle containing 1 files(s) in 0.00 secs.
+[2023.03.31-15.05.52:622][  0]LogCompile: Preparsed module /Script/SlateReflector containing 1 files(s) in 0.00 secs.
+[2023.03.31-15.05.52:627][  0]LogCompile: Exporting native class declarations for /Script/CoreUObject
+[2023.03.31-15.05.52:641][  0]LogCompile: Autogenerating boilerplate cpp: CoreUObject.generated.cpp
+[2023.03.31-15.05.52:651][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/CoreUObject/NoExportTypes.generated.h
+[2023.03.31-15.05.52:654][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/CoreUObject/CoreNetTypes.generated.h
+[2023.03.31-15.05.52:657][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/CoreUObject/CoreOnline.generated.h
+[2023.03.31-15.05.52:660][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/CoreUObject/CoreUObject.generated.dep.h
+[2023.03.31-15.05.52:664][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/CoreUObject/CoreUObject.generated.cpp
+[2023.03.31-15.05.52:664][  0]LogCompile: Success: Parsed 1434 line(s), 85 statement(s) in 0.04 secs.
+
+[2023.03.31-15.05.52:665][  0]LogCompile: Exporting native class declarations for /Script/InputCore
+[2023.03.31-15.05.52:672][  0]LogCompile: Autogenerating boilerplate cpp: InputCore.generated.cpp
+[2023.03.31-15.05.52:681][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/InputCore/InputCoreTypes.generated.h
+[2023.03.31-15.05.52:685][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/InputCore/InputCoreClasses.h
+[2023.03.31-15.05.52:688][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/InputCore/InputCore.generated.dep.h
+[2023.03.31-15.05.52:692][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/InputCore/InputCore.generated.cpp
+[2023.03.31-15.05.52:692][  0]LogCompile: Success: Parsed 566 line(s), 21 statement(s) in 0.03 secs.
+
+[2023.03.31-15.05.52:704][  0]LogCompile: Exporting native class declarations for /Script/SlateCore
+[2023.03.31-15.05.52:774][  0]LogCompile: Autogenerating boilerplate cpp: SlateCore.generated.cpp
+[2023.03.31-15.05.52:786][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/FontBulkData.generated.h
+[2023.03.31-15.05.52:790][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/CompositeFont.generated.h
+[2023.03.31-15.05.52:793][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/FontFaceInterface.generated.h
+[2023.03.31-15.05.52:796][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/FontProviderInterface.generated.h
+[2023.03.31-15.05.52:799][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateColor.generated.h
+[2023.03.31-15.05.52:802][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateFontInfo.generated.h
+[2023.03.31-15.05.52:805][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateEnums.generated.h
+[2023.03.31-15.05.52:808][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/Margin.generated.h
+[2023.03.31-15.05.52:812][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateSound.generated.h
+[2023.03.31-15.05.52:815][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateBrush.generated.h
+[2023.03.31-15.05.52:818][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateWidgetStyle.generated.h
+[2023.03.31-15.05.52:821][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateTypes.generated.h
+[2023.03.31-15.05.52:824][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateWidgetStyleContainerInterface.generated.h
+[2023.03.31-15.05.52:827][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateWidgetStyleContainerBase.generated.h
+[2023.03.31-15.05.52:829][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateWidgetStyleAsset.generated.h
+[2023.03.31-15.05.52:832][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/FontCache.generated.h
+[2023.03.31-15.05.52:835][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/Geometry.generated.h
+[2023.03.31-15.05.52:838][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/Events.generated.h
+[2023.03.31-15.05.52:841][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/NavigationReply.generated.h
+[2023.03.31-15.05.52:844][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateCoreClasses.h
+[2023.03.31-15.05.52:848][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateCore.generated.dep.h
+[2023.03.31-15.05.52:851][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateCore/SlateCore.generated.cpp
+[2023.03.31-15.05.52:851][  0]LogCompile: Success: Parsed 6245 line(s), 320 statement(s) in 0.15 secs.
+
+[2023.03.31-15.05.52:854][  0]LogCompile: Exporting native class declarations for /Script/Slate
+[2023.03.31-15.05.52:918][  0]LogCompile: Autogenerating boilerplate cpp: Slate.generated.cpp
+[2023.03.31-15.05.52:930][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/ButtonWidgetStyle.generated.h
+[2023.03.31-15.05.52:933][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/CheckBoxWidgetStyle.generated.h
+[2023.03.31-15.05.52:937][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/ComboBoxWidgetStyle.generated.h
+[2023.03.31-15.05.52:940][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/ComboButtonWidgetStyle.generated.h
+[2023.03.31-15.05.52:943][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/EditableTextBoxWidgetStyle.generated.h
+[2023.03.31-15.05.52:947][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/EditableTextWidgetStyle.generated.h
+[2023.03.31-15.05.52:950][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/ProgressWidgetStyle.generated.h
+[2023.03.31-15.05.52:953][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/ScrollBarWidgetStyle.generated.h
+[2023.03.31-15.05.52:956][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/ScrollBoxWidgetStyle.generated.h
+[2023.03.31-15.05.52:959][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/SlateSettings.generated.h
+[2023.03.31-15.05.52:962][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/SpinBoxWidgetStyle.generated.h
+[2023.03.31-15.05.52:965][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/TextBlockWidgetStyle.generated.h
+[2023.03.31-15.05.52:969][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/InputChord.generated.h
+[2023.03.31-15.05.52:972][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/TextLayout.generated.h
+[2023.03.31-15.05.52:975][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/ITypedTableView.generated.h
+[2023.03.31-15.05.52:978][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/Anchors.generated.h
+[2023.03.31-15.05.52:981][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/SScaleBox.generated.h
+[2023.03.31-15.05.52:984][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/SProgressBar.generated.h
+[2023.03.31-15.05.52:987][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/SlateClasses.h
+[2023.03.31-15.05.52:990][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/Slate.generated.dep.h
+[2023.03.31-15.05.52:993][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/Slate/Slate.generated.cpp
+[2023.03.31-15.05.52:993][  0]LogCompile: Success: Parsed 1842 line(s), 218 statement(s) in 0.14 secs.
+
+[2023.03.31-15.05.52:995][  0]LogCompile: Exporting native class declarations for /Script/EditorStyle
+[2023.03.31-15.05.53:007][  0]LogCompile: Autogenerating boilerplate cpp: EditorStyle.generated.cpp
+[2023.03.31-15.05.53:017][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/EditorStyle/EditorStyleSettings.generated.h
+[2023.03.31-15.05.53:020][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/EditorStyle/EditorStyleClasses.h
+[2023.03.31-15.05.53:024][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/EditorStyle/EditorStyle.generated.dep.h
+[2023.03.31-15.05.53:027][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/EditorStyle/EditorStyle.generated.cpp
+[2023.03.31-15.05.53:028][  0]LogCompile: Success: Parsed 194 line(s), 50 statement(s) in 0.03 secs.
+
+[2023.03.31-15.05.53:028][  0]LogCompile: Exporting native class declarations for /Script/SlateReflector
+[2023.03.31-15.05.53:034][  0]LogCompile: Autogenerating boilerplate cpp: SlateReflector.generated.cpp
+[2023.03.31-15.05.53:044][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateReflector/WidgetSnapshotMessages.generated.h
+[2023.03.31-15.05.53:048][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateReflector/SlateReflector.generated.dep.h
+[2023.03.31-15.05.53:051][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/CrashReportClient/Inc/SlateReflector/SlateReflector.generated.cpp
+[2023.03.31-15.05.53:051][  0]LogCompile: Success: Parsed 45 line(s), 7 statement(s) in 0.02 secs.
+
+[2023.03.31-15.05.53:051][  0]LogCompile: Preparsing 6 modules took 0.02 seconds
+[2023.03.31-15.05.53:051][  0]LogCompile: Parsing took 0.02 seconds
+[2023.03.31-15.05.53:051][  0]LogCompile: Code generation took 0.41 seconds
+[2023.03.31-15.05.53:051][  0]LogCompile: ScriptPlugin overhead was 0.00 seconds
+[2023.03.31-15.05.53:051][  0]LogCompile: Macroize time was 0.00 seconds
+[2023.03.31-15.05.53:051][  0]LogObj: Freed 0b from 0 cluster array pools.
+[2023.03.31-15.05.53:052][  0]Log file closed, 03/31/23 16:05:53

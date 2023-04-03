@@ -1,0 +1,434 @@
+﻿Log file open, 03/31/23 15:59:25
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1682929432) SRandInit(-1682929432).
+LogTaskGraph: Started task graph with 4 named threads and 11 total threads with 1 sets of task threads.
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 9
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 19
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+[2023.03.31-14.59.25:021][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2023.03.31-14.59.25:021][  0]LogMemory: Platform Memory Stats for Windows
+[2023.03.31-14.59.25:021][  0]LogMemory: Process Physical Memory: 26.91 MB used, 26.91 MB peak
+[2023.03.31-14.59.25:021][  0]LogMemory: Process Virtual Memory: 56.55 MB used, 56.55 MB peak
+[2023.03.31-14.59.25:021][  0]LogMemory: Physical Memory: 14622.66 MB used,  17846.85 MB free, 32469.50 MB total
+[2023.03.31-14.59.25:021][  0]LogMemory: Virtual Memory: 4307.71 MB used,  17846.85 MB free, 134217728.00 MB total
+[2023.03.31-14.59.25:022][  0]LogTextLocalizationManager: No translations for ('') exist, falling back to 'en' for localization and internationalization data.
+[2023.03.31-14.59.25:022][  0]LogCompile: UHT Command Line: ..\Binaries\Win64\UnrealHeaderTool.exe UnrealFrontend C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend.uhtmanifest "-LogCmds=loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -NoEnginePlugins
+[2023.03.31-14.59.25:027][  0]LogCompile: Loaded manifest: C:\Users\aja7\Documents\GitHub\unrealTournament\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend.uhtmanifest
+[2023.03.31-14.59.25:027][  0]LogCompile: Manifest.IsGameTarget=False
+[2023.03.31-14.59.25:027][  0]LogCompile: Manifest.RootLocalPath=C:\Users\aja7\Documents\GitHub\unrealTournament
+[2023.03.31-14.59.25:027][  0]LogCompile: Manifest.RootBuildPath=C:\Users\aja7\Documents\GitHub\unrealTournament\
+[2023.03.31-14.59.25:027][  0]LogCompile: Manifest.TargetName=UnrealFrontend
+[2023.03.31-14.59.25:027][  0]LogCompile: Manifest.Modules=23
+[2023.03.31-14.59.25:027][  0]LogCompile:   CoreUObject
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/CoreUObject/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/CoreUObject/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/CoreUObject/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/CoreUObject/CoreUObject.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   AutomationMessages
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/AutomationMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/AutomationMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationMessages/AutomationMessages.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   InputCore
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/InputCore/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/InputCore/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/InputCore/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/InputCore/InputCore.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   SlateCore
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/SlateCore/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/SlateCore/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateCore.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   Slate
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/Slate/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/Slate/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/Slate.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   JsonUtilities
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/JsonUtilities/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/JsonUtilities/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/JsonUtilities/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/JsonUtilities/JsonUtilities.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   SessionMessages
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/SessionMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/SessionMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SessionMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SessionMessages/SessionMessages.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   EngineMessages
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/EngineMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/EngineMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EngineMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EngineMessages/EngineMessages.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   Serialization
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/Serialization/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/Serialization/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Serialization/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Serialization/Serialization.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   UdpMessaging
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/UdpMessaging/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/UdpMessaging/UdpMessaging.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   TcpMessaging
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/TcpMessaging/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/TcpMessaging/TcpMessaging.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   LaunchDaemonMessages
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/IOS/LaunchDaemonMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Runtime/IOS/LaunchDaemonMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/LaunchDaemonMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/LaunchDaemonMessages/LaunchDaemonMessages.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineRuntime
+[2023.03.31-14.59.25:027][  0]LogCompile:   EditorStyle
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Editor/EditorStyle/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Editor/EditorStyle/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EditorStyle/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EditorStyle/EditorStyle.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineEditor
+[2023.03.31-14.59.25:027][  0]LogCompile:   UnrealEdMessages
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Editor/UnrealEdMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Editor/UnrealEdMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/UnrealEdMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/UnrealEdMessages/UnrealEdMessages.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineEditor
+[2023.03.31-14.59.25:027][  0]LogCompile:   ScreenShotComparisonTools
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/ScreenShotComparisonTools/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/ScreenShotComparisonTools/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ScreenShotComparisonTools/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ScreenShotComparisonTools/ScreenShotComparisonTools.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   AutomationController
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/AutomationController/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/AutomationController/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationController/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationController/AutomationController.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   MacTargetPlatform
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/Mac/MacTargetPlatform/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/Mac/MacTargetPlatform/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/MacTargetPlatform/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/MacTargetPlatform/MacTargetPlatform.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   WindowsTargetPlatform
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/Windows/WindowsTargetPlatform/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/Windows/WindowsTargetPlatform/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/WindowsTargetPlatform/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/WindowsTargetPlatform/WindowsTargetPlatform.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   SourceCodeAccess
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/SourceCodeAccess/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/SourceCodeAccess/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SourceCodeAccess/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SourceCodeAccess/SourceCodeAccess.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   ProfilerMessages
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/ProfilerMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/ProfilerMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ProfilerMessages/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ProfilerMessages/ProfilerMessages.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   AutomationWindow
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/AutomationWindow/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/AutomationWindow/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationWindow/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationWindow/AutomationWindow.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   TargetDeviceServices
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/TargetDeviceServices/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/TargetDeviceServices/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/TargetDeviceServices/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/TargetDeviceServices/TargetDeviceServices.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:027][  0]LogCompile:   SlateReflector
+[2023.03.31-14.59.25:027][  0]LogCompile:   .BaseDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/SlateReflector/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .IncludeBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Source/Developer/SlateReflector/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedIncludeDirectory=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateReflector/
+[2023.03.31-14.59.25:027][  0]LogCompile:   .SaveExportedHeaders=True
+[2023.03.31-14.59.25:027][  0]LogCompile:   .GeneratedCPPFilenameBase=C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateReflector/SlateReflector.generated
+[2023.03.31-14.59.25:027][  0]LogCompile:   .ModuleType=EngineDeveloper
+[2023.03.31-14.59.25:029][  0]LogCompile: Preparsed module /Script/CoreUObject containing 3 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:030][  0]LogCompile: Preparsed module /Script/AutomationMessages containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:030][  0]LogCompile: Preparsed module /Script/InputCore containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:040][  0]LogCompile: Preparsed module /Script/SlateCore containing 19 files(s) in 0.01 secs.
+[2023.03.31-14.59.25:045][  0]LogCompile: Preparsed module /Script/Slate containing 18 files(s) in 0.01 secs.
+[2023.03.31-14.59.25:046][  0]LogCompile: Preparsed module /Script/JsonUtilities containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:046][  0]LogCompile: Preparsed module /Script/SessionMessages containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:047][  0]LogCompile: Preparsed module /Script/EngineMessages containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:047][  0]LogCompile: Preparsed module /Script/Serialization containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:048][  0]LogCompile: Preparsed module /Script/UdpMessaging containing 2 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:048][  0]LogCompile: Preparsed module /Script/TcpMessaging containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:049][  0]LogCompile: Preparsed module /Script/LaunchDaemonMessages containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:049][  0]LogCompile: Preparsed module /Script/EditorStyle containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:050][  0]LogCompile: Preparsed module /Script/UnrealEdMessages containing 2 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:050][  0]LogCompile: Preparsed module /Script/ScreenShotComparisonTools containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:051][  0]LogCompile: Preparsed module /Script/AutomationController containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:052][  0]LogCompile: Preparsed module /Script/MacTargetPlatform containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:052][  0]LogCompile: Preparsed module /Script/WindowsTargetPlatform containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:052][  0]LogCompile: Preparsed module /Script/SourceCodeAccess containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:053][  0]LogCompile: Preparsed module /Script/ProfilerMessages containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:053][  0]LogCompile: Preparsed module /Script/AutomationWindow containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:054][  0]LogCompile: Preparsed module /Script/TargetDeviceServices containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:054][  0]LogCompile: Preparsed module /Script/SlateReflector containing 1 files(s) in 0.00 secs.
+[2023.03.31-14.59.25:059][  0]LogCompile: Exporting native class declarations for /Script/CoreUObject
+[2023.03.31-14.59.25:074][  0]LogCompile: Autogenerating boilerplate cpp: CoreUObject.generated.cpp
+[2023.03.31-14.59.25:085][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/CoreUObject/NoExportTypes.generated.h
+[2023.03.31-14.59.25:089][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/CoreUObject/CoreNetTypes.generated.h
+[2023.03.31-14.59.25:092][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/CoreUObject/CoreOnline.generated.h
+[2023.03.31-14.59.25:095][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/CoreUObject/CoreUObject.generated.dep.h
+[2023.03.31-14.59.25:098][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/CoreUObject/CoreUObject.generated.cpp
+[2023.03.31-14.59.25:098][  0]LogCompile: Success: Parsed 1434 line(s), 85 statement(s) in 0.04 secs.
+
+[2023.03.31-14.59.25:100][  0]LogCompile: Exporting native class declarations for /Script/AutomationMessages
+[2023.03.31-14.59.25:106][  0]LogCompile: Autogenerating boilerplate cpp: AutomationMessages.generated.cpp
+[2023.03.31-14.59.25:117][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationMessages/AutomationWorkerMessages.generated.h
+[2023.03.31-14.59.25:120][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationMessages/AutomationMessages.generated.dep.h
+[2023.03.31-14.59.25:123][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationMessages/AutomationMessages.generated.cpp
+[2023.03.31-14.59.25:123][  0]LogCompile: Success: Parsed 594 line(s), 23 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:124][  0]LogCompile: Exporting native class declarations for /Script/InputCore
+[2023.03.31-14.59.25:132][  0]LogCompile: Autogenerating boilerplate cpp: InputCore.generated.cpp
+[2023.03.31-14.59.25:142][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/InputCore/InputCoreTypes.generated.h
+[2023.03.31-14.59.25:147][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/InputCore/InputCoreClasses.h
+[2023.03.31-14.59.25:150][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/InputCore/InputCore.generated.dep.h
+[2023.03.31-14.59.25:153][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/InputCore/InputCore.generated.cpp
+[2023.03.31-14.59.25:153][  0]LogCompile: Success: Parsed 566 line(s), 21 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:167][  0]LogCompile: Exporting native class declarations for /Script/SlateCore
+[2023.03.31-14.59.25:241][  0]LogCompile: Autogenerating boilerplate cpp: SlateCore.generated.cpp
+[2023.03.31-14.59.25:254][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/FontBulkData.generated.h
+[2023.03.31-14.59.25:257][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/CompositeFont.generated.h
+[2023.03.31-14.59.25:260][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/FontFaceInterface.generated.h
+[2023.03.31-14.59.25:264][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/FontProviderInterface.generated.h
+[2023.03.31-14.59.25:267][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateColor.generated.h
+[2023.03.31-14.59.25:270][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateFontInfo.generated.h
+[2023.03.31-14.59.25:273][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateEnums.generated.h
+[2023.03.31-14.59.25:276][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/Margin.generated.h
+[2023.03.31-14.59.25:280][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateSound.generated.h
+[2023.03.31-14.59.25:284][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateBrush.generated.h
+[2023.03.31-14.59.25:288][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateWidgetStyle.generated.h
+[2023.03.31-14.59.25:291][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateTypes.generated.h
+[2023.03.31-14.59.25:294][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateWidgetStyleContainerInterface.generated.h
+[2023.03.31-14.59.25:297][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateWidgetStyleContainerBase.generated.h
+[2023.03.31-14.59.25:300][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateWidgetStyleAsset.generated.h
+[2023.03.31-14.59.25:303][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/FontCache.generated.h
+[2023.03.31-14.59.25:306][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/Geometry.generated.h
+[2023.03.31-14.59.25:309][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/Events.generated.h
+[2023.03.31-14.59.25:312][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/NavigationReply.generated.h
+[2023.03.31-14.59.25:316][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateCoreClasses.h
+[2023.03.31-14.59.25:319][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateCore.generated.dep.h
+[2023.03.31-14.59.25:322][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateCore/SlateCore.generated.cpp
+[2023.03.31-14.59.25:323][  0]LogCompile: Success: Parsed 6245 line(s), 320 statement(s) in 0.16 secs.
+
+[2023.03.31-14.59.25:327][  0]LogCompile: Exporting native class declarations for /Script/Slate
+[2023.03.31-14.59.25:396][  0]LogCompile: Autogenerating boilerplate cpp: Slate.generated.cpp
+[2023.03.31-14.59.25:407][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/ButtonWidgetStyle.generated.h
+[2023.03.31-14.59.25:411][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/CheckBoxWidgetStyle.generated.h
+[2023.03.31-14.59.25:414][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/ComboBoxWidgetStyle.generated.h
+[2023.03.31-14.59.25:418][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/ComboButtonWidgetStyle.generated.h
+[2023.03.31-14.59.25:421][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/EditableTextBoxWidgetStyle.generated.h
+[2023.03.31-14.59.25:424][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/EditableTextWidgetStyle.generated.h
+[2023.03.31-14.59.25:428][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/ProgressWidgetStyle.generated.h
+[2023.03.31-14.59.25:432][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/ScrollBarWidgetStyle.generated.h
+[2023.03.31-14.59.25:435][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/ScrollBoxWidgetStyle.generated.h
+[2023.03.31-14.59.25:439][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/SlateSettings.generated.h
+[2023.03.31-14.59.25:443][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/SpinBoxWidgetStyle.generated.h
+[2023.03.31-14.59.25:447][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/TextBlockWidgetStyle.generated.h
+[2023.03.31-14.59.25:450][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/InputChord.generated.h
+[2023.03.31-14.59.25:453][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/TextLayout.generated.h
+[2023.03.31-14.59.25:457][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/ITypedTableView.generated.h
+[2023.03.31-14.59.25:461][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/Anchors.generated.h
+[2023.03.31-14.59.25:464][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/SScaleBox.generated.h
+[2023.03.31-14.59.25:468][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/SProgressBar.generated.h
+[2023.03.31-14.59.25:471][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/SlateClasses.h
+[2023.03.31-14.59.25:475][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/Slate.generated.dep.h
+[2023.03.31-14.59.25:479][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Slate/Slate.generated.cpp
+[2023.03.31-14.59.25:479][  0]LogCompile: Success: Parsed 1842 line(s), 218 statement(s) in 0.15 secs.
+
+[2023.03.31-14.59.25:479][  0]LogCompile: Exporting native class declarations for /Script/JsonUtilities
+[2023.03.31-14.59.25:487][  0]LogCompile: Autogenerating boilerplate cpp: JsonUtilities.generated.cpp
+[2023.03.31-14.59.25:498][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/JsonUtilities/JsonObjectWrapper.generated.h
+[2023.03.31-14.59.25:502][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/JsonUtilities/JsonUtilitiesClasses.h
+[2023.03.31-14.59.25:505][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/JsonUtilities/JsonUtilities.generated.dep.h
+[2023.03.31-14.59.25:509][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/JsonUtilities/JsonUtilities.generated.cpp
+[2023.03.31-14.59.25:509][  0]LogCompile: Success: Parsed 46 line(s), 12 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:510][  0]LogCompile: Exporting native class declarations for /Script/SessionMessages
+[2023.03.31-14.59.25:515][  0]LogCompile: Autogenerating boilerplate cpp: SessionMessages.generated.cpp
+[2023.03.31-14.59.25:526][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SessionMessages/SessionServiceMessages.generated.h
+[2023.03.31-14.59.25:529][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SessionMessages/SessionMessages.generated.dep.h
+[2023.03.31-14.59.25:533][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SessionMessages/SessionMessages.generated.cpp
+[2023.03.31-14.59.25:533][  0]LogCompile: Success: Parsed 157 line(s), 10 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:534][  0]LogCompile: Exporting native class declarations for /Script/EngineMessages
+[2023.03.31-14.59.25:539][  0]LogCompile: Autogenerating boilerplate cpp: EngineMessages.generated.cpp
+[2023.03.31-14.59.25:550][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EngineMessages/EngineServiceMessages.generated.h
+[2023.03.31-14.59.25:553][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EngineMessages/EngineMessages.generated.dep.h
+[2023.03.31-14.59.25:557][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EngineMessages/EngineMessages.generated.cpp
+[2023.03.31-14.59.25:557][  0]LogCompile: Success: Parsed 182 line(s), 12 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:558][  0]LogCompile: Exporting native class declarations for /Script/Serialization
+[2023.03.31-14.59.25:562][  0]LogCompile: Autogenerating boilerplate cpp: Serialization.generated.cpp
+[2023.03.31-14.59.25:573][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Serialization/StructSerializerTestTypes.generated.h
+[2023.03.31-14.59.25:576][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Serialization/Serialization.generated.dep.h
+[2023.03.31-14.59.25:579][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/Serialization/Serialization.generated.cpp
+[2023.03.31-14.59.25:580][  0]LogCompile: Success: Parsed 287 line(s), 13 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:580][  0]LogCompile: Exporting native class declarations for /Script/UdpMessaging
+[2023.03.31-14.59.25:595][  0]LogCompile: Autogenerating boilerplate cpp: UdpMessaging.generated.cpp
+[2023.03.31-14.59.25:606][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/UdpMessaging/UdpMessagingSettings.generated.h
+[2023.03.31-14.59.25:610][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/UdpMessaging/UdpMessagingTestTypes.generated.h
+[2023.03.31-14.59.25:614][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/UdpMessaging/UdpMessagingClasses.h
+[2023.03.31-14.59.25:618][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/UdpMessaging/UdpMessaging.generated.dep.h
+[2023.03.31-14.59.25:622][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/UdpMessaging/UdpMessaging.generated.cpp
+[2023.03.31-14.59.25:622][  0]LogCompile: Success: Parsed 178 line(s), 27 statement(s) in 0.04 secs.
+
+[2023.03.31-14.59.25:623][  0]LogCompile: Exporting native class declarations for /Script/TcpMessaging
+[2023.03.31-14.59.25:632][  0]LogCompile: Autogenerating boilerplate cpp: TcpMessaging.generated.cpp
+[2023.03.31-14.59.25:645][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/TcpMessaging/TcpMessagingSettings.generated.h
+[2023.03.31-14.59.25:649][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/TcpMessaging/TcpMessagingClasses.h
+[2023.03.31-14.59.25:653][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/TcpMessaging/TcpMessaging.generated.dep.h
+[2023.03.31-14.59.25:656][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Win64/UnrealFrontend/Inc/TcpMessaging/TcpMessaging.generated.cpp
+[2023.03.31-14.59.25:657][  0]LogCompile: Success: Parsed 47 line(s), 13 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:657][  0]LogCompile: Exporting native class declarations for /Script/LaunchDaemonMessages
+[2023.03.31-14.59.25:661][  0]LogCompile: Autogenerating boilerplate cpp: LaunchDaemonMessages.generated.cpp
+[2023.03.31-14.59.25:671][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/LaunchDaemonMessages/IOSMessageProtocol.generated.h
+[2023.03.31-14.59.25:674][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/LaunchDaemonMessages/LaunchDaemonMessages.generated.dep.h
+[2023.03.31-14.59.25:680][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/LaunchDaemonMessages/LaunchDaemonMessages.generated.cpp
+[2023.03.31-14.59.25:680][  0]LogCompile: Success: Parsed 78 line(s), 8 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:683][  0]LogCompile: Exporting native class declarations for /Script/EditorStyle
+[2023.03.31-14.59.25:693][  0]LogCompile: Autogenerating boilerplate cpp: EditorStyle.generated.cpp
+[2023.03.31-14.59.25:704][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EditorStyle/EditorStyleSettings.generated.h
+[2023.03.31-14.59.25:708][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EditorStyle/EditorStyleClasses.h
+[2023.03.31-14.59.25:712][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EditorStyle/EditorStyle.generated.dep.h
+[2023.03.31-14.59.25:718][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/EditorStyle/EditorStyle.generated.cpp
+[2023.03.31-14.59.25:718][  0]LogCompile: Success: Parsed 194 line(s), 50 statement(s) in 0.04 secs.
+
+[2023.03.31-14.59.25:719][  0]LogCompile: Exporting native class declarations for /Script/UnrealEdMessages
+[2023.03.31-14.59.25:727][  0]LogCompile: Autogenerating boilerplate cpp: UnrealEdMessages.generated.cpp
+[2023.03.31-14.59.25:738][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/UnrealEdMessages/AssetEditorMessages.generated.h
+[2023.03.31-14.59.25:742][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/UnrealEdMessages/FileServerMessages.generated.h
+[2023.03.31-14.59.25:745][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/UnrealEdMessages/UnrealEdMessages.generated.dep.h
+[2023.03.31-14.59.25:749][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/UnrealEdMessages/UnrealEdMessages.generated.cpp
+[2023.03.31-14.59.25:750][  0]LogCompile: Success: Parsed 69 line(s), 11 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:750][  0]LogCompile: Exporting native class declarations for /Script/ScreenShotComparisonTools
+[2023.03.31-14.59.25:756][  0]LogCompile: Autogenerating boilerplate cpp: ScreenShotComparisonTools.generated.cpp
+[2023.03.31-14.59.25:767][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ScreenShotComparisonTools/ImageComparer.generated.h
+[2023.03.31-14.59.25:771][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ScreenShotComparisonTools/ScreenShotComparisonTools.generated.dep.h
+[2023.03.31-14.59.25:775][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ScreenShotComparisonTools/ScreenShotComparisonTools.generated.cpp
+[2023.03.31-14.59.25:775][  0]LogCompile: Success: Parsed 316 line(s), 13 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:776][  0]LogCompile: Exporting native class declarations for /Script/AutomationController
+[2023.03.31-14.59.25:780][  0]LogCompile: Autogenerating boilerplate cpp: AutomationController.generated.cpp
+[2023.03.31-14.59.25:791][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationController/AutomationControllerManager.generated.h
+[2023.03.31-14.59.25:794][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationController/AutomationController.generated.dep.h
+[2023.03.31-14.59.25:798][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationController/AutomationController.generated.cpp
+[2023.03.31-14.59.25:798][  0]LogCompile: Success: Parsed 506 line(s), 18 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:799][  0]LogCompile: Exporting native class declarations for /Script/MacTargetPlatform
+[2023.03.31-14.59.25:806][  0]LogCompile: Autogenerating boilerplate cpp: MacTargetPlatform.generated.cpp
+[2023.03.31-14.59.25:815][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/MacTargetPlatform/MacTargetSettings.generated.h
+[2023.03.31-14.59.25:819][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/MacTargetPlatform/MacTargetPlatformClasses.h
+[2023.03.31-14.59.25:822][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/MacTargetPlatform/MacTargetPlatform.generated.dep.h
+[2023.03.31-14.59.25:825][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/MacTargetPlatform/MacTargetPlatform.generated.cpp
+[2023.03.31-14.59.25:826][  0]LogCompile: Success: Parsed 39 line(s), 10 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:826][  0]LogCompile: Exporting native class declarations for /Script/WindowsTargetPlatform
+[2023.03.31-14.59.25:834][  0]LogCompile: Autogenerating boilerplate cpp: WindowsTargetPlatform.generated.cpp
+[2023.03.31-14.59.25:844][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/WindowsTargetPlatform/WindowsTargetSettings.generated.h
+[2023.03.31-14.59.25:849][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/WindowsTargetPlatform/WindowsTargetPlatformClasses.h
+[2023.03.31-14.59.25:854][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/WindowsTargetPlatform/WindowsTargetPlatform.generated.dep.h
+[2023.03.31-14.59.25:859][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/WindowsTargetPlatform/WindowsTargetPlatform.generated.cpp
+[2023.03.31-14.59.25:860][  0]LogCompile: Success: Parsed 61 line(s), 14 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:860][  0]LogCompile: Exporting native class declarations for /Script/SourceCodeAccess
+[2023.03.31-14.59.25:868][  0]LogCompile: Autogenerating boilerplate cpp: SourceCodeAccess.generated.cpp
+[2023.03.31-14.59.25:879][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SourceCodeAccess/SourceCodeAccessSettings.generated.h
+[2023.03.31-14.59.25:883][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SourceCodeAccess/SourceCodeAccessClasses.h
+[2023.03.31-14.59.25:887][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SourceCodeAccess/SourceCodeAccess.generated.dep.h
+[2023.03.31-14.59.25:890][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SourceCodeAccess/SourceCodeAccess.generated.cpp
+[2023.03.31-14.59.25:891][  0]LogCompile: Success: Parsed 19 line(s), 9 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:891][  0]LogCompile: Exporting native class declarations for /Script/ProfilerMessages
+[2023.03.31-14.59.25:899][  0]LogCompile: Autogenerating boilerplate cpp: ProfilerMessages.generated.cpp
+[2023.03.31-14.59.25:914][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ProfilerMessages/ProfilerServiceMessages.generated.h
+[2023.03.31-14.59.25:918][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ProfilerMessages/ProfilerMessages.generated.dep.h
+[2023.03.31-14.59.25:921][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/ProfilerMessages/ProfilerMessages.generated.cpp
+[2023.03.31-14.59.25:922][  0]LogCompile: Success: Parsed 289 line(s), 16 statement(s) in 0.03 secs.
+
+[2023.03.31-14.59.25:922][  0]LogCompile: Exporting native class declarations for /Script/AutomationWindow
+[2023.03.31-14.59.25:926][  0]LogCompile: Autogenerating boilerplate cpp: AutomationWindow.generated.cpp
+[2023.03.31-14.59.25:937][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationWindow/AutomationPresetManager.generated.h
+[2023.03.31-14.59.25:940][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationWindow/AutomationWindow.generated.dep.h
+[2023.03.31-14.59.25:943][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/AutomationWindow/AutomationWindow.generated.cpp
+[2023.03.31-14.59.25:944][  0]LogCompile: Success: Parsed 179 line(s), 10 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:946][  0]LogCompile: Exporting native class declarations for /Script/TargetDeviceServices
+[2023.03.31-14.59.25:951][  0]LogCompile: Autogenerating boilerplate cpp: TargetDeviceServices.generated.cpp
+[2023.03.31-14.59.25:961][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/TargetDeviceServices/TargetDeviceServiceMessages.generated.h
+[2023.03.31-14.59.25:964][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/TargetDeviceServices/TargetDeviceServices.generated.dep.h
+[2023.03.31-14.59.25:968][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/TargetDeviceServices/TargetDeviceServices.generated.cpp
+[2023.03.31-14.59.25:969][  0]LogCompile: Success: Parsed 615 line(s), 21 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:969][  0]LogCompile: Exporting native class declarations for /Script/SlateReflector
+[2023.03.31-14.59.25:973][  0]LogCompile: Autogenerating boilerplate cpp: SlateReflector.generated.cpp
+[2023.03.31-14.59.25:983][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateReflector/WidgetSnapshotMessages.generated.h
+[2023.03.31-14.59.25:986][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateReflector/SlateReflector.generated.dep.h
+[2023.03.31-14.59.25:990][  0]LogCompile: Exported updated C++ header: C:/Users/aja7/Documents/GitHub/unrealTournament/Engine/Intermediate/Build/Win64/UnrealFrontend/Inc/SlateReflector/SlateReflector.generated.cpp
+[2023.03.31-14.59.25:990][  0]LogCompile: Success: Parsed 45 line(s), 7 statement(s) in 0.02 secs.
+
+[2023.03.31-14.59.25:990][  0]LogCompile: Preparsing 23 modules took 0.03 seconds
+[2023.03.31-14.59.25:990][  0]LogCompile: Parsing took 0.04 seconds
+[2023.03.31-14.59.25:990][  0]LogCompile: Code generation took 0.90 seconds
+[2023.03.31-14.59.25:990][  0]LogCompile: ScriptPlugin overhead was 0.00 seconds
+[2023.03.31-14.59.25:990][  0]LogCompile: Macroize time was 0.00 seconds
+[2023.03.31-14.59.25:991][  0]LogObj: Freed 0b from 0 cluster array pools.
+[2023.03.31-14.59.25:992][  0]Log file closed, 03/31/23 15:59:25
